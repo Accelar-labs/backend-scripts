@@ -1,0 +1,8 @@
+{
+    "canisters": {
+        "vector_database": {
+            "main": "main.mo",
+            "type": "motoko"
+        }
+    }
+}

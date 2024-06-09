@@ -1,0 +1,30 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "compilerOptions": {
+    "assets": [
+      "**/*.hbs",
+      "auth/*.json",
+      "**/*.py",
+      "**/**/*.py",
+      "**/**/**/*.py",
+      "**/*.mo",
+      "**/**/*.mo",
+      "**/**/**/*.mo",
+      "**/**/**/**/*.wav",
+      "**/**/**/*.wav",
+      "**/**/*.wav",
+      "**/*.rs",
+      "**/*.toml",
+      "**/*.lock",
+      "**/*.wasm",
+      "**/**/**/**/*.wasm",
+      "**/**/**/*.wasm",
+      "**/**/*.wasm",
+      "**/**/**/**/**/*.wasm",
+      "**/**/**/**/**/**/*.wasm"
+    ],
+    "watchAssets": true,
+    "deleteOutDir": true
+  }
+}
