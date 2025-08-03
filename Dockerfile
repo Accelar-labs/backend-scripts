@@ -1,5 +1,5 @@
 # Primeira Etapa: Construção (Builder)
-FROM ubuntu:latest AS builder
+FROM ubuntu:24.10 AS builder
 
 # Instalar ferramentas necessárias, Node.js e Python
 RUN apt-get update && \
@@ -40,7 +40,7 @@ RUN cargo install soroban-cli --version 21.0.0-preview.1 && ls /root/.cargo/bin
 # COPY ./src/blockchain/soroban/soroban-deployer/target/wasm32-unknown-unknown/release/*.wasm /app/wasm/
 
 # Segunda Etapa: Imagem Final
-FROM ubuntu:latest
+FROM ubuntu:24.10
 
 WORKDIR /app
 
