@@ -67,7 +67,7 @@
     "fast-csv": "^4.3.6",
     "form-data": "^4.0.0",
     "googleapis": "^126.0.1",
-    "hardhat": "^2.12.7",
+    "hardhat": "^3.0.0",
     "langchain": "^0.1.28",
     "linkify-it": "^4.0.1",
     "livekit-server-sdk": "^1.2.7",
